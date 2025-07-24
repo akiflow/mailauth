@@ -1,6 +1,6 @@
 {
     "name": "@akiflow/mailauth",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Email authentication library for Node.js",
     "main": "lib/mailauth.js",
     "scripts": {

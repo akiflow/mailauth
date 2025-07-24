@@ -3,6 +3,8 @@ This fork is made to support right cases for the `crypto.verify` function as we 
 
 This has been reported to original package (https://github.com/postalsys/mailauth/issues/91) and to the Bun team as well (https://github.com/oven-sh/bun/issues/21354).
 
+Unfortuantely, we couldn't find a way to reliably list the supported algorithms with the right case, especially in Bun, 
+so we will resort to execute the verify twice with different cases for the algorithm parameter.
 
 # mailauth: Email Authentication for Node.js
 
