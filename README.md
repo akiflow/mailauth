@@ -1,3 +1,9 @@
+## Fork by akiflow
+This fork is made to support right cases for the `crypto.verify` function as we are running the package on bun, which expect different cases for the algorithm parameter.
+
+This has been reported to original package (https://github.com/postalsys/mailauth/issues/91) and to the Bun team as well (https://github.com/oven-sh/bun/issues/21354).
+
+
 # mailauth: Email Authentication for Node.js
 
 ![mailauth Logo](https://github.com/postalsys/mailauth/raw/master/assets/mailauth.png)
